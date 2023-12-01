@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    
+}
+.alt{
+    color: whitesmoke;
+    background-blend-mode:lighten;
+}
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
+}
+#color{
+    color: black;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: silver;
+    text-shadow:#0a0a23;
+    opacity: 0;
+    transform: translateX(20px);
+    animation: logoAnimation 1s ease-out forwards;
+}
+
+@keyframes logoAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+.option {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: optionAnimation 1s ease-out forwards;
+}
+
+@keyframes optionAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

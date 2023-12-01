@@ -1,0 +1,65 @@
+.introcontainer{
+    height:500px;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    width:55%;
+    text-align: center;
+}
+.nomargin{
+    margin:0;
+}
+.contentcontainer{
+    width: 100%;
+    display: flex;
+    flex:1;
+}
+.content{
+    width:50%;
+    display:flex;
+    justify-content: center;
+}
+.limit{
+    width:75%;
+    text-align: center;
+    
+}
+.piclimit{
+    width:50%;
+}
+.speciall{
+    color:beige;
+    font-size: 1.5em;
+    font-style: italic;    
+}
+.black{
+    width:75%;
+    text-align: center;
+    background-color: black;
+}
+@media screen and (max-width: 576px) {
+    .introcontainer{
+        height:auto;
+        font-size:1em;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .speciall{
+        color:beige;
+        font-size: 1em;
+        font-style: italic; 
+    }
+    .black{
+        height: auto;
+        text-align: center;
+        background-color: black;
+    }
+} 

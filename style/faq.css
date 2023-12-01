@@ -1,0 +1,32 @@
+body,footer{
+    background-image: url("../icons/earth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    font-family: Helvetica Neue LT,Helvetica Neue,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display:flex;
+    justify-content: center;
+}
+.large{
+    font-size: 100px;
+}
+.faqcontainer{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+}
+.underline{
+    text-decoration: underline;
+}
+.totheleft{
+    text-align: left;
+    background-color:  rgb(123, 44, 123);
+    border:1px solid #D1FED0;
+}
